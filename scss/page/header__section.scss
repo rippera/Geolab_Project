@@ -1,0 +1,78 @@
+.header__wrapp{
+    align-items: center;
+    justify-content: space-between;
+}
+.header__{
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $White;
+    // box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    transition: all .3s  linear;
+}
+.logo{
+    width: 160px;
+}
+// .burger{
+//     display: none;
+// }
+.nav__li{
+    font-family: $Main_font2;
+    font-size: 20px;
+    font-style: normal;
+    padding-right: 30px;
+    transition: all .3s ease-in;
+    &:hover{
+        color: $Nav_hover;
+    }
+    &:last-child{
+        padding-right: 0px; 
+    }
+    
+}
+.burger{
+    display: none ;
+    z-index: 35;
+    span{
+        background: $bg_color2;
+        width: 35px;
+        height: 3px;
+        display: block;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all .3s linear;
+        margin-left: -25px;
+    }
+}
+.line1{
+    top: -10px !important;
+    position: absolute;
+}
+.line2{
+    top: -3px !important;
+    position: absolute;
+}
+.line3{
+    top: 4px !important;
+    position: absolute;
+}
+.burger{
+    &.open{
+        .line1{
+            transform: rotate(45deg);
+            top: -1px !important;
+        }
+        .line2{
+            left: 70px;
+            opacity: 0;
+        }
+        .line3{
+            transform: rotate(-45deg);
+            top: 0 !important;
+        }
+    }
+}

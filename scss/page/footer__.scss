@@ -1,0 +1,16 @@
+.footer__{
+    background: $bg_color3;
+    padding: 45px 0 35px 0;
+}
+.footer__wrapper{
+    align-items: baseline;
+    justify-content: space-between;
+    h1{
+        font-family: $Main_font1;
+        font-size: 14px;
+        color: $White;
+    }
+}
+.white__logo{
+    width: 160px;
+}

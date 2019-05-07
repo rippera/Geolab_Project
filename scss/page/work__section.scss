@@ -1,0 +1,51 @@
+.work__section{
+    padding: 55px 0;
+}
+.main__title{
+    h1{
+        font-family: $Main_font2;
+        font-size: 24px;
+        font-style: normal;
+        text-align: center;
+        &::after{
+            content: '';
+            width: 95px;
+            height: 2px;
+            display: block;
+            background: black;
+            margin: 15px auto;
+        }
+    }
+}
+.work__box{
+    width: 270px;
+    border: 2px solid $Border_color;
+    padding: 18px;
+}
+.work__icon{
+    img{
+        height: 75px;
+    }
+}
+.work__title{
+    font-family: $Main_font2;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: $Black;
+}
+.work__intro{
+    font-family: $Main_font1;
+    color: $Intro_color;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+.divider{
+    content: '';
+    width: 30px;
+    height: 2px;
+    display: block;
+    background: $Nav_hover;
+    margin: 15px auto 40px auto;
+}

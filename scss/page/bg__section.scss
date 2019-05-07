@@ -1,0 +1,30 @@
+.bg__section{
+    background-image: url('../img/bg/header.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
+.title__wrapp{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    // margin-top: 235px;
+    transform: translate(-50%, -50%);
+    h1{
+        font-family: $Main_font2;
+        font-style: normal;
+        font-size: 40px;
+        color: $White;
+    }
+    p{
+        font-family: $Main_font1;
+        font-style: normal;
+        font-size: 30px;
+        color: $White;
+        text-align: center;
+        margin-top: 15px;
+    }
+}

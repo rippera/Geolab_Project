@@ -1,0 +1,165 @@
+@media screen and (max-width:1024px) {
+    .title__wrapp {
+        top: 30%;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .work__box {
+        width: 200px;
+    }
+
+    .work__icon {
+        img {
+            width: 60px;
+        }
+    }
+
+    .divider {
+        margin: 15px auto 25px auto;
+    }
+
+    .work__intro {
+        font-size: 14px;
+    }
+
+    .project__box {
+        width: 300px;
+    }
+
+    .about__img {
+        width: 320px;
+        height: 315px;
+    }
+
+    .about__body {
+        width: 510px;
+    }
+}
+
+@media screen and (max-width:969px) {
+    // .nav__ {
+    //     // display: none;
+    // }
+    .navigation__wrap{
+        position: fixed;
+        top: 103px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #B8EDF8;
+        visibility: hidden;
+        transform: scale(0);
+        transition: all .3s linear;
+        &.nav_fixed{
+            visibility: visible;
+            transform: scale(1); 
+        }
+    }
+    .nav__ul{
+        flex-direction: column;
+        text-align: center;
+        margin: 200px;
+        // color: #ffff;
+    }
+    .nav__li{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .burger {
+        display: block;
+    }
+
+    .work__box {
+        width: 330px;
+        margin-bottom: 20px;
+    }
+
+    .work__intro {
+        font-size: 16px;
+    }
+
+    .mb_none {
+        margin-bottom: 0px;
+    }
+
+    .project__box {
+        width: 330px;
+    }
+
+    .about__img {
+        width: 215px;
+        height: 265px;
+    }
+
+    .about__body {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title__wrapp {
+        top: 40%;
+    }
+
+    .title__wrapp {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+@media screen and (max-width:678px) {
+    
+    .title__wrapp {
+        top: 50%;
+        width: 368px;
+        h1 {
+            font-size: 25px;
+        }
+    }
+    .work__box,
+    .project__box{
+        width: unset;
+    }
+    .bg__section{
+        height: 475px;
+    }
+    .mb_none{
+        margin-bottom: 20px;
+    }
+    .about__wrapper{
+        flex-wrap: wrap;
+    }
+    .about__img {
+        width: unset;
+        height: unset;
+        margin-bottom: 90px;
+        margin-right: 25px;
+    }
+    .about__body{
+        width: unset;
+    }
+    .about__title{
+        h1{
+            &::after{
+                margin: 13px 0 50px 0;
+            }
+        }
+    }
+    .white__logo {
+        width: 100px;
+    }
+}
+@media screen and (max-width:320px) {
+    .title__wrapp {
+        width: 295px;
+    }
+    .title__wrapp h1{
+        font-size: 20px;
+    }
+    .title__wrapp p{
+        font-size: 22px;
+    }
+}
