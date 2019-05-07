@@ -43,6 +43,11 @@
     // .nav__ {
     //     // display: none;
     // }
+    .nav__li{
+        &:hover{
+            color: $Black;
+        }
+    }
     .navigation__wrap{
         position: fixed;
         top: 103px;
@@ -151,6 +156,10 @@
     .white__logo {
         width: 100px;
     }
+    .nav__ul{
+        margin: 200px auto;
+    }
+    
 }
 @media screen and (max-width:320px) {
     .title__wrapp {

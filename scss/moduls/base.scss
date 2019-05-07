@@ -37,3 +37,26 @@ html{
   ::-webkit-scrollbar-thumb{
     background: $Black;
   }
+
+.go__top{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    // background: black;
+    transition: all .5s linear;
+    z-index: 12;
+    border-style: solid;
+    border-width: 20px 27px 19px 0;
+    border-color: transparent $Black transparent transparent;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+// .arrow__up{
+//     border-width: 30px 40px 30px 0;
+//     left: 0;
+//     margin-left: 30px;
+//     border-color: transparent $White transparent transparent;
+// }
