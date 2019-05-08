@@ -39,10 +39,8 @@
     }
 }
 
-@media screen and (max-width:969px) {
-    // .nav__ {
-    //     // display: none;
-    // }
+@media screen and (max-width:992px) {
+    
     .nav__li{
         &:hover{
             color: $Black;
@@ -66,12 +64,12 @@
     .nav__ul{
         flex-direction: column;
         text-align: center;
-        margin: 200px;
+        margin: 140px 0;
         // color: #ffff;
     }
     .nav__li{
         padding-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .burger {
         display: block;
@@ -116,7 +114,11 @@
     }
 }
 @media screen and (max-width:678px) {
-    
+    .burger{
+        span{
+            margin-left: -40px;
+        }
+    }
     .title__wrapp {
         top: 50%;
         width: 368px;

@@ -9,15 +9,12 @@
     top: 0;
     left: 0;
     background: $White;
-    // box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
     transition: all .3s  linear;
 }
 .logo{
     width: 160px;
 }
-// .burger{
-//     display: none;
-// }
+
 .nav__li{
     font-family: $Main_font2;
     font-size: 20px;
@@ -61,6 +58,16 @@
     position: absolute;
 }
 .burger{
+    &::before{
+        content: '';
+        background: $bg_color2;
+        display: block;
+        width: 2px;
+        height: 108px;
+        right: 60px;
+        top: -56px;
+        position: absolute;
+    }
     &.open{
         .line1{
             transform: rotate(45deg);

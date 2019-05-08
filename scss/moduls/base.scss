@@ -41,7 +41,7 @@ html{
 .go__top{
     cursor: pointer;
     position: fixed;
-    bottom: 0px;
+    bottom: -30px;
     right: 20px;
     width: 35px;
     height: 35px;
@@ -54,9 +54,6 @@ html{
     transform: rotate(90deg);
     opacity: 0;
 }
-// .arrow__up{
-//     border-width: 30px 40px 30px 0;
-//     left: 0;
-//     margin-left: 30px;
-//     border-color: transparent $White transparent transparent;
-// }
+a.navli__active{
+    color: $Nav_hover !important;
+}
