@@ -1,7 +1,5 @@
 @media screen and (max-width:1024px) {
     .title__wrapp {
-        // top: 30%;
-
         h1 {
             font-size: 30px;
         }
@@ -77,7 +75,6 @@
     }
 
     .work__box {
-        // width: 330px;
         width: unset;
         margin-bottom: 20px;
     }
@@ -106,10 +103,6 @@
 
 @media screen and (max-width:768px) {
     .title__wrapp {
-        // top: 40%;
-    }
-
-    .title__wrapp {
         h1 {
             font-size: 25px;
         }
@@ -122,7 +115,6 @@
         }
     }
     .title__wrapp {
-        // top: 50%;
         width: 368px;
         h1 {
             font-size: 25px;

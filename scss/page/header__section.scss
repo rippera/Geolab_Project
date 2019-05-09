@@ -29,9 +29,7 @@
     }
     
 }
-a.white{
-    color: #ffffff !important;
-}
+
 .burger__divider{
     content: '';
     background: $bg_color2;
@@ -73,7 +71,6 @@ a.white{
     position: absolute;
 }
 .burger{
-   
     &.open{
         .line1{
             transform: rotate(45deg);
@@ -89,6 +86,6 @@ a.white{
         }
     }
 }
-.navigation__wrap {
-    touch-action: pinch-zoom;
-}
+// .navigation__wrap {
+//     touch-action: pinch-zoom;
+// }
