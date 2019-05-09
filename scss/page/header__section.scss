@@ -29,9 +29,24 @@
     }
     
 }
+a.white{
+    color: #ffffff !important;
+}
+.burger__divider{
+    content: '';
+    background: $bg_color2;
+    display: block;
+    width: 2px;
+    height: 108px;
+    right: 60px;
+    top: -56px;
+    position: absolute;
+    transition: all .3s linear;
+}
 .burger{
     display: none ;
     z-index: 35;
+    
     span{
         background: $bg_color2;
         width: 35px;
@@ -58,16 +73,7 @@
     position: absolute;
 }
 .burger{
-    &::before{
-        content: '';
-        background: $bg_color2;
-        display: block;
-        width: 2px;
-        height: 108px;
-        right: 60px;
-        top: -56px;
-        position: absolute;
-    }
+   
     &.open{
         .line1{
             transform: rotate(45deg);
