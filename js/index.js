@@ -49,24 +49,6 @@ function mainAnimations() {
     }
 }
 
-////
-// function rame() {
-//     let win = window.matchMedia('min-width: 995px');
-// }
-
-////
-
-
-function responsiveFunction(x) {
-    if (x.matches) { 
-        navUl.addEventListener('click',addWhiteClass);
-        document.getElementById('parent').classList.add('white');
-    }
-}
-let x = window.matchMedia("(max-width: 992px)");
-responsiveFunction(x) ;
-
-
 function removeActiveClassOnScroll() {
     let topNavigation = document.querySelectorAll('.nav__li a');
     topNavigation.forEach(function (item) {
@@ -74,7 +56,7 @@ function removeActiveClassOnScroll() {
     })
     
 }
-// removeActiveClassOnScroll();
+
 function addActiveOnScroll() {
     let workSection    = document.getElementById('work');
     let projectSection = document.getElementById('project');
@@ -121,4 +103,3 @@ window.addEventListener('scroll',()=>{
     addActiveOnScroll();
 });
 
-x.addListener(responsiveFunction);

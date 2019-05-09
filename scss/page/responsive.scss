@@ -40,7 +40,9 @@
 }
 
 @media screen and (max-width:992px) {
-    
+    a.navli__active{
+        color: $White !important;
+    }
     .nav__li{
         &:hover{
             color: $Black;
@@ -65,7 +67,6 @@
         flex-direction: column;
         text-align: center;
         margin: 140px 0;
-        // color: #ffff;
     }
     .nav__li{
         padding-right: 0px;
@@ -76,7 +77,8 @@
     }
 
     .work__box {
-        width: 330px;
+        // width: 330px;
+        width: unset;
         margin-bottom: 20px;
     }
 
@@ -89,7 +91,7 @@
     }
 
     .project__box {
-        width: 330px;
+        width: unset;
     }
 
     .about__img {
